@@ -6,8 +6,8 @@
 body {
     font: 20px 'Gill Sans', Verdana, sans-serif;
     line-height: 1.8;
-    color: var(--accent-color);
-    background: linear-gradient(135deg, var(--primary-color), var(--light-color));
+    color: #0dfa58;
+    background: linear-gradient(360deg, var(--primary-color), var(--light-color));
     margin: 0;
     padding-top: 0px !important;
   }
@@ -28,54 +28,42 @@ a {
   /*padding-bottom: 70px;*/
 }
 
-nav {
-  background-color: #0c0b0b;
-  color: #f6f6f6;
-  padding: 50px 0px;
+.navbar {
+  background: linear-gradient(135deg, #ec0d3d, #1c3d5a);
+  padding: 15px 0;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+  background: rgba(255, 255, 255, 0.4);
+  transform: scale(1.05);
 }
 
 .navbar-nav {
   display: flex;
-  justify-content: flex-start;
-  gap: 30px;
-}
-
-.nav-title{
-  margin-left: 15px;
-  margin-right: 15px;
-  color: #000000;
-}
-
-.nav-link {
-  border: 3px outset #a3a3a3;
-  border-radius: 20px;
-  padding: 10px 30px;
-  background-color: #a3a3a3;
-  color: #EEE7E8;
-  transition: 0.3s;
-}
-
-.nav-link:hover {
-  border: 3px outset #FFFFFF;
-  border-radius: 20px;
-  padding: 10px 30px;
-  background-color: #a3a3a3;
-  transition: 0.3s;
-}
-
-.nav-link {
-  border: 2px solid var(--nav-link-bg);
-  border-radius: 20px;
-  padding: 10px 30px;
-  background-color: var(--nav-link-bg);
-  color: var(--light-color);
-  transition: all 0.3s ease;
-}
-
-.nav-link:hover {
-  border-color: var(--light-color);
-  transform: scale(1.05);
-  
+  gap: 20px;
 }
 
 #btn {
