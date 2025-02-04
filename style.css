@@ -1,11 +1,11 @@
 body {
-    font: 20px 'Gill Sans', Verdana, sans-serif;
-    line-height: 1.8;
-    color: #ffffff;
-    background: #6638e6;
-    margin: 0;
-    padding-top: 0px !important;
-  }
+  font: 20px 'Gill Sans', Verdana, sans-serif;
+  line-height: 1.8;
+  color: #ffffff;
+  background: #6638e6;
+  margin: 0;
+  padding-top: 0px !important;
+}
 
 .textcontainer {
   padding: 2% 10%;;
